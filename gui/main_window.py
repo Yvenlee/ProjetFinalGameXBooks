@@ -343,7 +343,7 @@ class MainWindow(QMainWindow):
 
             img1 = ImageOps.fit(img1, (300, 400))
             
-            logo_path = "assets/logo_bw.png"
+            logo_path = "assets/jasmin.png"
             logo = Image.open(logo_path).convert("RGBA")
             logo = logo.rotate(45, expand=True)
             logo = ImageOps.fit(logo, (100, 100))
