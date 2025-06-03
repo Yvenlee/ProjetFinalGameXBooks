@@ -336,7 +336,7 @@ class MainWindow(QMainWindow):
 
     def process_images(self):
         try:
-            img_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/PrideAndPrejudiceTitlePage.jpg/640px-PrideAndPrejudiceTitlePage.jpg"
+            img_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Thomson-PP02.jpg/250px-Thomson-PP02.jpg"
             response = requests.get(img_url)
             response.raise_for_status()
             img1 = Image.open(BytesIO(response.content))
